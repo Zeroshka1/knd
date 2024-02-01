@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="score_all">
+            <input type = "text" id="score_enemy" value="0" disabled class="score_main"/>
+            <input type = "text" id="score" value="0" disabled class="score_main"/>
+        </div>
+
+        <div class="game">
+            <div class="enemy">
+                <img src="image/rock.png" alt="" class="item" id="enemys">
+            </div>
+            <div class="player">
+                <img src="image/rock.png" alt="" class="player_item" id="players">
+            </div>
+            <div class="select">
+                <button class="select_item" id="rock"><img src="image/rock.png" alt=""></button>
+                <button class="select_item" id="nozh"><img src="image/nozh.png" alt=""></button>
+                <button class="select_item" id="papper"><img src="image/papper.png" alt=""></button>
+            </div>
+            
+        </div>
+
+        <div class="popup-ths hidden-popup">
+            <div class="popup-content">
+                <div class="close"><img src="image/close.png" alt=""></div>
+                <h1 class="success-title"></h1>
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js" defer></script>
+</body>
+</html>
